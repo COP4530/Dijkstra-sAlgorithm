@@ -10,7 +10,6 @@ class Graph: public GraphBase{
         std::vector<std::string> vertices;
         std::vector<std::tuple<std::string,std::string,unsigned long>> edges;
     public:
-        Graph();
         void addVertex(std::string label);
         void removeVertex(std::string label);
         void addEdge(std::string label1, std::string label2, unsigned long weight);
